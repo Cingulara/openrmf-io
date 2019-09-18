@@ -1,2 +1,2 @@
 # openrmf-io
-The openrmf.io website repository
+This is the openrmf.io website repository for the public facing marketing and information website for OpenRMF.
