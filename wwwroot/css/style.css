@@ -147,7 +147,7 @@ h6 {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #header .logo h1 a,
@@ -481,40 +481,40 @@ h6 {
 /* About Us Section
 --------------------------------*/
 
-#about {
+#features {
   background: #fff;
   padding: 60px 0;
 }
 
-#about .about-container .background {
+#features .about-container .background {
   margin: 20px 0;
 }
 
-#about .about-container .content {
+#features .about-container .content {
   background: #fff;
 }
 
-#about .about-container .title {
+#features .about-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
-#about .about-container p {
+#features .about-container p {
   line-height: 26px;
 }
 
-#about .about-container p:last-child {
+#features .about-container p:last-child {
   margin-bottom: 0;
 }
 
-#about .about-container .icon-box {
+#features .about-container .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
-#about .about-container .icon-box .icon {
+#features .about-container .icon-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -542,41 +542,41 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#about .about-container .icon-box .icon i {
+#features .about-container .icon-box .icon i {
   color: #007bff;
   font-size: 24px;
 }
 
-#about .about-container .icon-box:hover .icon {
+#features .about-container .icon-box:hover .icon {
   background: #007bff;
 }
 
-#about .about-container .icon-box:hover .icon i {
+#features .about-container .icon-box:hover .icon i {
   color: #fff;
 }
 
-#about .about-container .icon-box .title {
+#features .about-container .icon-box .title {
   margin-left: 80px;
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-#about .about-container .icon-box .title a {
+#features .about-container .icon-box .title a {
   color: #283d50;
 }
 
-#about .about-container .icon-box .description {
+#features .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
 }
 
-#about .about-extra {
+#features .about-extra {
   padding-top: 60px;
 }
 
-#about .about-extra h4 {
+#features .about-extra h4 {
   font-weight: 600;
   font-size: 24px;
 }
@@ -584,12 +584,12 @@ h6 {
 /* Services Section
 --------------------------------*/
 
-#services {
+#benefits {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#services .box {
+#benefits .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -600,39 +600,39 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#benefits .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#services .icon {
+#benefits .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#benefits .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#benefits .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#benefits .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#benefits .box:hover .title a {
   color: #007bff;
 }
 
-#services .description {
+#benefits .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
