@@ -191,6 +191,7 @@ h6 {
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
+  margin-right: 15px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -1384,6 +1385,7 @@ h6 {
   #intro .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
+    margin-right: 10px;
   }
 
   .section-header p {
