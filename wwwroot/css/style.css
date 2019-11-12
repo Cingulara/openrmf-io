@@ -158,8 +158,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  max-height: 50px;
 }
 
 .main-pages {
@@ -1336,6 +1335,10 @@ h6 {
   #testimonials .testimonial-item p {
     width: 80%;
   }
+  #header .logo span {
+    /* hide the title when largest */
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1369,11 +1372,19 @@ h6 {
   #why-us .card {
     margin: 0;
   }
+  #header .logo img {
+    padding: 0;
+    max-height: 36px;
+  }
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  #header .logo img {
+    padding: 0;
+    max-height: 36px;
   }
 }
 
@@ -1406,10 +1417,18 @@ h6 {
   #testimonials .testimonial-item p {
     margin-left: 0;
   }
+  #header .logo img {
+    padding: 0;
+    max-height: 36px;
+  }
 }
 
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+  #header .logo img {
+    padding: 0;
+    max-height: 36px;
   }
 }
