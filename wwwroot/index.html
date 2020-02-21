@@ -124,8 +124,8 @@
         <header class="section-header">
           <h3>Features</h3>
           <p><b><i>Drastically</i></b> shrink your timeline to submit for an ATO! OpenRMF is 
-            the only web-based open source tool to manage your DoD STIG checklists, DISA SCAP scans, Nessus ACAS patch data, 
-            that can also generate NIST compliance.</p>
+            the only web-based open source tool to edit and manage your DoD STIG checklists, DISA and Nessus SCAP scans, Nessus ACAS patch data, 
+            and generate NIST compliance in minutes. All with one tool!</p>
         </header>
 
         <div class="row about-container">
@@ -139,22 +139,22 @@
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                <div class="icon"><i class="fa fa-gears"></i></div>
-                <h4 class="title"><a href="">Run via Docker or Kubernetes</a></h4>
-                <p class="description">Run locally via Docker Compose file or via Kubernetes (<a href="https://github.com/Cingulara/openrmf-docs/tree/master/deployments/chart/openrmf" 
-                    target="_blank">Helm chart available</a>). Easily setup AuthN/AuthZ via
-                  Keycloak using the documented OpenID configuration in minutes.
-                </p>
-              </div>
-  
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                <div class="icon"><i class="fa fa-list-alt"></i></div>
-                <h4 class="title"><a href="">List Checklists by System</a></h4>
-                <p class="description">Keep track of your STIG checklists by system. Show your Not a Finding, Open, N/A, and Not Reviewed 
-                  numbers at a quick glance. Export checklists to MS Excel for sharing. Export the .CKL file by using OpenRMF as your Configuration 
-                  Management tool for the checklist files.
-                </p>
-              </div>
+              <div class="icon"><i class="fa fa-pencil-square-o"></i></div>
+              <h4 class="title"><a href="">Edit Checklists Live through a Browser</a></h4>
+              <p class="description">With the latest release (0.12 beta) you can edit your checklist live via the browser! Set status, comments, details, 
+                security override as well as host name, role, domain name and more. The included auditing keeps track of who edited the 
+                checklist for tracking purposes.
+              </p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-filter"></i></div>
+              <h4 class="title"><a href="">Filter Vulnerabilities per Checklist</a></h4>
+              <p class="description">List all Vulnerabilities per Checklist and filter by Open, N/A, Not Reviewed or Not a Finding to 
+                quickly answer questions. Turn them on and off and export to MS Excel.
+              </p>
+            </div>
+
           </div>
 
           <div class="col-lg-6 content order-lg-1 order-2">
@@ -167,10 +167,11 @@
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-filter"></i></div>
-              <h4 class="title"><a href="">Filter Vulnerabilities per Checklist</a></h4>
-              <p class="description">List all Vulnerabilities per Checklist and filter by Open, N/A, Not Reviewed or Not a Finding to 
-                quickly answer questions. Turn them on and off and export to MS Excel.
+              <div class="icon"><i class="fa fa-list-alt"></i></div>
+              <h4 class="title"><a href="">List Checklists by System</a></h4>
+              <p class="description">Keep track of your STIG checklists by system. Show your Not a Finding, Open, N/A, and Not Reviewed 
+                numbers at a quick glance. Export checklists to MS Excel for sharing. Export the .CKL file by using OpenRMF as your Configuration 
+                Management tool for checklist files.
               </p>
             </div>
 
@@ -190,6 +191,15 @@
               <h4 class="title"><a href="">Interactive Reports</a></h4>
               <p class="description">Generate reports for Nessus patching across servers, System Checklist items, RMF Controls, as well as charts showing 
                 your System status.
+              </p>
+            </div>
+            
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-gears"></i></div>
+              <h4 class="title"><a href="">Run via Docker or Kubernetes</a></h4>
+              <p class="description">Run locally via Docker Compose file or via Kubernetes (<a href="https://github.com/Cingulara/openrmf-docs/tree/master/deployments/chart/openrmf" 
+                  target="_blank">Helm chart available</a>). Easily setup AuthN/AuthZ via
+                Keycloak using the documented OpenID configuration in minutes.
               </p>
             </div>
           </div>
@@ -241,7 +251,7 @@
             <div class="box">
               <div class="icon"><i class="ion-ios-time-outline" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">Save Massive Time and Money</a></h4>
-              <p class="description">Generating compliance for a system with 20 
+              <p class="description">Generating compliance for a system with just 20 
                 servers and 5 checklists per server can easily take a couple of weeks to generate. <b>This system does it in seconds</b> with a click of a 
                 button!
               </p>
@@ -261,7 +271,7 @@
             <div class="box">
               <div class="icon"><i class="ion-ios-people-outline" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="">Easy Collaboration</a></h4>
-              <p class="description">Allow your team to collaborate and view Checklists, Charts, and System status in 
+              <p class="description">Allow your team to collaborate by editing and viewing Checklists, Charts, and System status in 
                 a single location without passing files around and using out-of-date information.
               </p>
             </div>
