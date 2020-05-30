@@ -1,6 +1,6 @@
 # openrmf-io
 
-<p><img src="https://app.codeship.com/projects/d3fbf140-c9bb-0137-2863-46e2886f579e/status?branch=master" 
+<p><img src="https://app.codeship.com/projects/512f71f0-84c6-0138-347b-62b8d5cb0ba2/status?branch=master" 
     alt="CodeShip automation status" /></p>
 
 This is the https://www.openrmf.io/ website repository for the public facing marketing and information website for OpenRMF.
